@@ -1,9 +1,9 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import fileUpload from 'express-fileupload'
-import router from '/work/backend/router.js'
+import router from './router.js'
 
-const PORT = 7000
+const PORT = 5000
 
 const DB_URL = `mongodb+srv://root:12345@cluster0.aaovaqq.mongodb.net/?retryWrites=true&w=majority`
 
